@@ -50,9 +50,30 @@ thead{
     background-color: #4da1ff;
 }
 .odd-row{
-    background-color: #97f6f6;
+    background-color: #b2e6f2;
 }
 #column-1, #column-2{
     width: 25%;
 }
 
+/* footer styles */
+footer{
+    margin-top: 30px;
+}
+h4{
+    color: grey;
+}
+.footer-img{
+    color: white;
+    width: 200px;
+    height: 150px;
+    padding: 10px;
+}
+#img-monitor{
+    background-image: url(../img/monitor.jpg);
+    margin-top: 10px;
+}
+#img-graph{
+    background-image: url(../img/graph.jpg);
+    margin-top: 10px;
+}
