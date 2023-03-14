@@ -1,0 +1,80 @@
+/* General styles */
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto Slab', serif;
+}
+.big-container, #header-title{
+    margin-left: 5px;
+    margin-right: 100px;
+    width: 80%;
+}
+
+
+/* header styles */
+#top-band{
+    background-image: url(../img/pattern.png);
+    background-repeat: repeat;
+    background-size: 350px 150px;
+    height: 80px;
+    background-color: #4da1ff;
+    margin-bottom: 10px;
+}
+#logo{
+    width: 150px;
+    padding-top: 30px;
+    padding-left: 10%;
+}
+.sign-date{
+    color: grey;
+}
+#signature{
+    color: rgb(69, 218, 229);
+}
+
+
+/* main styles */
+#photo-descr, #tim-descr{
+    margin: 15px 5px;
+}
+.yellow-back{
+    background-color: yellow;
+}
+#main-list{
+    margin:20px 20px;
+}
+table{
+    width: 100%;
+}
+thead{
+    color: white;
+    background-color: #4da1ff;
+}
+.odd-row{
+    background-color: #b2e6f2;
+}
+#column-1, #column-2{
+    width: 25%;
+}
+
+/* footer styles */
+footer{
+    margin-top: 30px;
+}
+h4{
+    color: grey;
+}
+.footer-img{
+    color: white;
+    width: 200px;
+    height: 150px;
+    padding: 10px;
+}
+#img-monitor{
+    background-image: url(../img/monitor.jpg);
+    margin-top: 10px;
+}
+#img-graph{
+    background-image: url(../img/graph.jpg);
+    margin-top: 10px;
+}
